@@ -3,5 +3,7 @@
 This is a mirror of the vim syntax code from the
 [asciidoc source](http://code.google.com/p/asciidoc/source/browse/#hg%2Fvim)
 
-I've tweaked the ftdetect to recognise .txt and .asc files that are likely to
-be asciidoc files.
+forked from https://github.com/gavinheavyside/vim-asciidoc/
+
+tweaks to filetype detection: .asciidoc is asciidoc automatically, and 
+.txt and .asc are scanned for optional detection as asciidoc
